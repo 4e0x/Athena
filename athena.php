@@ -406,6 +406,8 @@
                                                 
                                             break;
                                         }
+                                    } else{
+                                        echo show_toast( "What's the file/folder name?");
                                     }
                                 break;
                             }
