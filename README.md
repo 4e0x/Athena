@@ -4,7 +4,7 @@
 
 # Athena
 An average and a minimal PHP web shell
----
+- - -
 
 ## Disclaimer ⚠️
 I do not take responsibility for any damage caused by Athena. Do not publically expose this if you don't really know what you are doing. Athena was built for educational purposes only. You should let your admin know if you place this on a web server that you don't own.
@@ -15,5 +15,5 @@ I do not take responsibility for any damage caused by Athena. Do not publically 
 ### Development ✔️
 Contributions are welcome, feel free to make changes and create a pull-request [here](https://github.com/4e0x/Athena/pulls).
 
-### TODO ✔️
+### TODO
 - Improve File Manager by adding in more options.
