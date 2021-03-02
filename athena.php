@@ -250,36 +250,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="is_row_inner">
-                    <div class="is_card">
-                        <div class="is_flex">
-                            <div class="width_100">
-                                <a href="?mode=upload">
-                                    <h3 class="card_title">Upload Files</h3>
-                                </a>
-                                <h6 class="card_sub">Upload files to your preffered loc</h6>
-                            </div>
-                            <div class="is_icon">
-                                <svg class="is_svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.01l1.41 1.41L11 14.84V19h2v-4.16l1.59 1.59L16 15.01 12.01 11z"/></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="is_row_inner">
-                    <div class="is_card">
-                        <div class="is_flex">
-                            <div class="width_100">
-                                <a href="?mode=delete">
-                                    <h3 class="card_title">Delete Files</h3>
-                                </a>
-                                <h6 class="card_sub">Delete unwanted files real quick</h6>
-                            </div>
-                            <div class="is_icon">
-                                <svg class="is_svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"/></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <div class="is_options">
