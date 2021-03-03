@@ -384,7 +384,8 @@
                                     </form>
                                     ';
                                     
-                                    if ( !empty( $_POST[ 'create_type' ] ) && !empty( $_POST[ 'create_file_name']  ) ){
+                                    if( isset( $_POST['create_this'] ) ){
+                                        if ( !empty( $_POST[ 'create_type' ] ) && !empty( $_POST[ 'create_file_name']  ) ){
                                         switch( $_POST[ 'create_type' ] ){
                                             case "folder":
                                                 if ( mkdir( $_SERVER[ 'DOCUMENT_ROOT' ].'/'.$_POST[ 'create_file_name' ] ) ){
@@ -409,6 +410,7 @@
                                     } else{
                                         echo show_toast( "What's the file/folder name?");
                                     }
+                                }
                                 break;
                             }
                         ?>
