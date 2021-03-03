@@ -26,9 +26,9 @@
     session_start();
 
     define( "RANDOM_ID", md5( rand() ) );
-	define( "SERVER_NAME", $_SERVER['SERVER_NAME'] );
-	define( "SERVER_IP_PORT", $_SERVER['SERVER_ADDR'].":".$_SERVER['SERVER_PORT'] );
-	define( "SERVER_SOFTWARE", $_SERVER['SERVER_SOFTWARE'] );
+    define( "SERVER_NAME", $_SERVER['SERVER_NAME'] );
+    define( "SERVER_IP_PORT", $_SERVER['SERVER_ADDR'].":".$_SERVER['SERVER_PORT'] );
+    define( "SERVER_SOFTWARE", $_SERVER['SERVER_SOFTWARE'] );
 	
 
     $_AUTH              = 1;
@@ -490,6 +490,10 @@
                                     <?php echo SERVER_SOFTWARE; ?>
                                 </td>
                             </tr>
+				<td class="is_bold">Safe Mode</td>
+                                <td>
+                                    <?php echo ( ini_get( 'safe_mode' )  ? 'ON' : 'OFF' ); ?>
+                                </td>
                         </table>
                     </div>
                 </div>
