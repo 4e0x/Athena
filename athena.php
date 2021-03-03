@@ -457,6 +457,16 @@
                                         }
                                     }
                                 break;
+
+                                // -------------------- Default mode
+				default:
+					    echo '
+					    <div class="is_mini_card is_field">
+                                                    <h6 class="card_sub">MODE ERROR</h6>
+                                                    <h4>I don\'t recognize that mode.</h4>
+                                                </div>
+					    ';
+					    
                             }
                         ?>
                         
