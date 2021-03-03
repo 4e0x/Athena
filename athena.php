@@ -44,9 +44,9 @@
     }
 
     if ( !empty( $_GET[ 'mode' ] ) ) {
-        $_MODE = $_GET[ 'mode' ];
+        $_MODE = strip_tags( $_GET[ 'mode' ] );
     } elseif ( !empty($_POST['mode'] ) ) {
-        $_MODE = $_POST['mode'];
+        $_MODE = strip_tags( $_POST[ 'mode' ] );
     } else {
         $_MODE = "shell";
     }
